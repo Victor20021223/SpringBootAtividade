@@ -1,0 +1,4 @@
+br\edu\umfg\exerciciosAPI\controllers\ClientController.class
+br\edu\umfg\entitties\Client.class
+br\edu\umfg\exerciciosAPI\ExerciciosApiApplication.class
+br\edu\umfg\exerciciosAPI\Config\WebConfig.class
