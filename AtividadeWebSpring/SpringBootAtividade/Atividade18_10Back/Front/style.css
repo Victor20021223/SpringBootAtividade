@@ -1,0 +1,89 @@
+h3{
+    color: #605e5e;
+}
+
+body{
+    background-color: #b3b2b2;
+    margin: 0%;
+}
+
+button{
+    text-decoration: double;
+    background-color: #605e5e;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+
+}
+
+.buttom{
+    display: flex;
+    justify-content:center;
+}
+
+.buttom .create{
+    margin: 0 20px;
+    border-color: #b3b2b4;
+}
+
+.buttom .create:hover{
+    color: aqua;
+    background-color: green;
+}
+
+.buttom .refresh{
+    margin: 0 20px;
+    border-color: #b3b2b4;
+}
+
+.buttom .refresh:hover{
+    color: aqua;
+    background-color: green;
+}
+
+#titulo{
+    color: #b3b2b4;
+    text-align: center;
+    background-color: #605e5e;
+    margin: 0;
+    padding: 30px;
+    background: linear-gradient(rgb(45, 45, 45), 
+    rgb(175, 175, 175)) padding-box, 
+    linear-gradient(to right, #a6c9b9, #0be6e6, #f700c5) 
+    border-box;
+}
+
+form{
+    border-radius: 15px;
+    border: none;
+}
+
+input{
+    border-radius: 15px;
+    align-items: center;
+    border: none;
+    
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+}
+
+#table{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#table #client{
+    background-color: azure;
+    text-align: center;
+    text-decoration: double;
+}

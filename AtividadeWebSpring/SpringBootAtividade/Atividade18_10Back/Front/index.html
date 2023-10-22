@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <script type="text/javascript" src="./script.js"></script>
+    <head>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+
+    <body>
+        <h1 id="titulo">Client</h1>
+        <form id="form">
+            <h3>Name : </h3><input type="text" id="name" placeholder="Nome"><br>
+            <h3>LastName : </h3><input type="text" id="lastname" placeholder="Sobrenome"><br>
+            <h3>Document : </h3><input type="text" id="document" placeholder="Documento CPF"><br>
+        </form>
+        <div class="buttom">
+        <button onclick="postClients()" class="create">Create</button>
+        <button onclick="getClients()" class="refresh">Refresh</button> 
+        </div>
+           
+        <table id="table">
+            <tr id="client">
+
+            </tr>
+        </table>
+    </body>
+</html>
