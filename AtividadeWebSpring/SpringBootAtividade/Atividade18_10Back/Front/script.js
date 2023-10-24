@@ -1,5 +1,8 @@
 function postClients(){
     var xhttp = new XMLHttpRequest();
+    var ClientTable = document.getElementById("client")
+
+    ClientTable.innerHTML = '';
 
     xhttp.open("POST", "http://localhost:8080/clients", true);
     xhttp.setRequestHeader("Accept", "application/json");
@@ -49,7 +52,7 @@ function getClients(){
                 row.appendChild(lastnameCell);
                 row.appendChild(documentCell);
 
-                table.appendChild(row);
+                ClientTable.appendChild(row);
             }
         }
     }
